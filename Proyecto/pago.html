@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pago</title>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/templatemo.min.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+<body>
+    <di class="payment-form">
+        <h1 class="h4 mb-4 text-center">Datos de pago</h1>
+        <form id="payment-form">
+            <div class="form-group">
+                <label for="card-number">Número de tarjeta</label>
+                <input type="text" class="form-control" id="card" placeholder="1234 5678 1234 1234">
+            </div>
+
+            <div class="form-group">
+                <label for="card-number">Fecha de expiración (MM/AA)</label>
+                <input type="text" class="form-control" id="expiry-date" placeholder="MM/AA" required>
+            </div>
+
+            <div class="form-group">
+                <label for="card-number">Codigo de seguridad</label>
+                <input type="text" class="form-control" id="secure-code" placeholder="134" required>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block">Pagar</button>
+        </form>
+    </div>
+</body>
+</html>
